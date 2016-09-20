@@ -3,6 +3,7 @@
 #
 # Commands:
 #   hubot send to group <group_id> <message> <n> times
+#   hubot group_id - show the current group ID
 
 module.exports = (robot) ->
 
@@ -10,8 +11,10 @@ module.exports = (robot) ->
     times = parseInt(res.match[3])
     envelope = user: { reply_to: parseInt(res.match[1]) }
     for i in [0...times]
-      robot.send envelope, res.match[2]
+      robot.send envelope, res.match[2].replace(/<n>/, i + 1)
 
+  robot.respond /group_id$/, (res) ->
+    res.send res.envelope.room
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
