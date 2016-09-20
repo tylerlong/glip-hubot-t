@@ -20,5 +20,5 @@ HUBOT_GLIP_EMAIL=your@email.com HUBOT_GLIP_PASSWORD=your-password ./bin/hubot -a
 ## Usage
 
 ```
-t send to user <user_id> <message> <n> times
+t send to group <group_id> <message> <n> times
 ```

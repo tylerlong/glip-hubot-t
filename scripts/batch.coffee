@@ -2,13 +2,13 @@
 #   Example scripts for you to examine and try out.
 #
 # Commands:
-#   hubot send to user <user_id> <message> <n> times
+#   hubot send to group <group_id> <message> <n> times
 
 module.exports = (robot) ->
 
-  robot.respond /send to user\s+(\d+)\s+([\s\S]+)\s+(\d+)\s+times$/, (res) ->
+  robot.respond /send to group\s+(\d+)\s+([\s\S]+)\s+(\d+)\s+times$/, (res) ->
     times = parseInt(res.match[3])
-    envelope = user: { reply_to: res.match[1] }
+    envelope = user: { reply_to: parseInt(res.match[1]) }
     for i in [0...times]
       robot.send envelope, res.match[2]
 
