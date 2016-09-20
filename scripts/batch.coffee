@@ -1,14 +1,17 @@
 # Description:
 #   Example scripts for you to examine and try out.
 #
-# Notes:
-#   They are commented out by default, because most of them are pretty silly and
-#   wouldn't be useful and amusing enough for day to day huboting.
-#   Uncomment the ones you want to try and experiment with.
-#
-#   These are from the scripting documentation: https://github.com/github/hubot/blob/master/docs/scripting.md
+# Commands:
+#   hubot send to user <user_id> <message> <n> times
 
 module.exports = (robot) ->
+
+  robot.respond /send to user\s+(\d+)\s+([\s\S]+)\s+(\d+)\s+times$/, (res) ->
+    times = parseInt(res.match[3])
+    envelope = user: { reply_to: res.match[1] }
+    for i in [0...times]
+      robot.send envelope, res.match[2]
+
 
   # robot.hear /badger/i, (res) ->
   #   res.send "Badgers? BADGERS? WE DON'T NEED NO STINKIN BADGERS"
