@@ -1,6 +1,6 @@
 {
   "name": "glip-hubot-t",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "private": true,
   "author": "Tyler Long <tyler4long@gmail.com>",
   "description": "A simple helpful robot for RingCentral",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-glip": "^0.5.0",
+    "hubot-glip": "^0.7.0",
     "hubot-help": "^0.2.0"
   },
   "engines": {

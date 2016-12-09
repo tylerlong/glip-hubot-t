@@ -13,7 +13,7 @@ npm install
 ## Run
 
 ```
-HUBOT_GLIP_HOST=glip.com HUBOT_GLIP_EMAIL=your@email.com HUBOT_GLIP_PASSWORD=your-password ./bin/hubot -a glip -n t
+HUBOT_GLIP_HOST=glip.com HUBOT_GLIP_PORT=443 HUBOT_GLIP_EMAIL=your@email.com HUBOT_GLIP_PASSWORD=your-password ./bin/hubot -a glip -n t
 ```
 
 
