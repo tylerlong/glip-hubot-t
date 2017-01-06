@@ -16,6 +16,7 @@
     "node": "4.x"
   },
   "devDependencies": {
-    "npm-check-updates": "^2.8.9"
+    "npm-check-updates": "^2.8.9",
+    "standard": "^8.6.0"
   }
 }
