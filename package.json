@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-glip": "^0.7.1",
+    "hubot-glip": "^0.7.2",
     "hubot-help": "^0.2.0"
   },
   "engines": {
