@@ -6,7 +6,7 @@
 Download the source code, then:
 
 ```
-npm install
+yarn install
 ```
 
 
