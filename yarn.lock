@@ -610,13 +610,13 @@ debug-log@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/debug-log/-/debug-log-1.0.1.tgz#2307632d4c04382b8df8a32f70b895046d52745f"
 
-debug@2.2.0, debug@~2.2.0:
+debug@2.2.0, debug@^2.1.1, debug@~2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.2.0.tgz#f87057e995b1a1f6ae6a4960664137bc56f039da"
   dependencies:
     ms "0.7.1"
 
-debug@2.3.3, debug@^2.1.1, debug@^2.2.0:
+debug@2.3.3, debug@^2.2.0:
   version "2.3.3"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.3.3.tgz#40c453e67e6e13c901ddec317af8986cda9eff8c"
   dependencies:
@@ -1316,9 +1316,9 @@ http-signature@~1.1.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-hubot-glip@^0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/hubot-glip/-/hubot-glip-0.8.1.tgz#bdfbcc484584bc27f405e48d1757559d9421b152"
+hubot-glip@^0.8.4:
+  version "0.8.4"
+  resolved "https://registry.yarnpkg.com/hubot-glip/-/hubot-glip-0.8.4.tgz#e821084667dd8622666e954a4047607aa30eae87"
   dependencies:
     glip.socket.io "^0.1.0"
     parent-require "^1.0.0"
