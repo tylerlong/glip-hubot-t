@@ -13,7 +13,11 @@ yarn install
 ## Run
 
 ```
-HUBOT_GLIP_HOST=glip.com HUBOT_GLIP_PORT=443 HUBOT_GLIP_EMAIL=your@email.com HUBOT_GLIP_PASSWORD=your-password ./bin/hubot -a glip -n t
+HUBOT_GLIP_APP_KEY=appKey \
+HUBOT_GLIP_APP_SECRET=appSecret \
+HUBOT_GLIP_USERNAME=username \
+HUBOT_GLIP_PASSWORD=password \
+./bin/hubot -a glip -n t
 ```
 
 
