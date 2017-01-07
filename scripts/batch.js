@@ -5,7 +5,7 @@
 //   hubot send to group <group_id> <message> <n> times
 //   hubot group_id - show the current group ID
 
-module.exports =  (robot) => {
+module.exports = (robot) => {
   robot.respond(/send to group\s+(\d+)\s+([\s\S]+)\s+(\d+)\s+times$/, (res) => {
     const times = parseInt(res.match[3])
     const envelope = {
