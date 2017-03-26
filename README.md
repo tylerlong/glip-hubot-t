@@ -1,5 +1,7 @@
 # glip-hubot-t
 
+Sample Glip chatbot based on hubot and Glip Rest API.
+
 
 ## Install software
 
@@ -16,6 +18,7 @@ yarn install
 HUBOT_GLIP_APP_KEY=appKey \
 HUBOT_GLIP_APP_SECRET=appSecret \
 HUBOT_GLIP_USERNAME=username \
+HUBOT_GLIP_EXTENSION=extension \
 HUBOT_GLIP_PASSWORD=password \
 ./bin/hubot -a glip -n t
 ```
