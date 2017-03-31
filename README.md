@@ -15,6 +15,7 @@ yarn install
 ## Run
 
 ```
+HUBOT_GLIP_SERVER=https://platform.ringcentral.com \
 HUBOT_GLIP_APP_KEY=appKey \
 HUBOT_GLIP_APP_SECRET=appSecret \
 HUBOT_GLIP_USERNAME=username \
