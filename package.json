@@ -9,14 +9,14 @@
   },
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-glip": "^0.8.5",
+    "hubot-glip": "^0.9.0",
     "hubot-help": "^0.2.0"
   },
   "engines": {
     "node": "4.x"
   },
   "devDependencies": {
-    "npm-check-updates": "^2.8.9",
-    "standard": "^8.6.0"
+    "npm-check-updates": "^2.10.4",
+    "standard": "^9.0.2"
   }
 }
