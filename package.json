@@ -1,6 +1,6 @@
 {
   "name": "glip-hubot-t",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "private": true,
   "author": "Tyler Long <tyler4long@gmail.com>",
   "description": "Sample Glip chatbot based on hubot and Glip Rest API.",
@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-glip": "2.0.0",
+    "hubot-glip": "2.0.1",
     "hubot-help": "^0.2.0"
   },
   "devDependencies": {
