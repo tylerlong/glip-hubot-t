@@ -5,15 +5,16 @@
   "author": "Tyler Long <tyler4long@gmail.com>",
   "description": "Sample Glip chatbot based on hubot and Glip Rest API.",
   "scripts": {
-    "upgrade": "ncu -ua && yarn upgrade"
+    "upgrade": "yarn-upgrade-all"
   },
   "dependencies": {
     "hubot": "^2.19.0",
-    "hubot-glip": "2.0.1",
-    "hubot-help": "^0.2.0"
+    "hubot-glip": "^2.0.4",
+    "hubot-help": "^0.2.2",
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "npm-check-updates": "^2.10.4",
-    "standard": "^9.0.2"
+    "standard": "^10.0.3",
+    "yarn-upgrade-all": "^0.2.0"
   }
 }
