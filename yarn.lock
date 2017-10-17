@@ -3,12 +3,12 @@
 
 
 "@types/node@^7.0.5":
-  version "7.0.43"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.43.tgz#a187e08495a075f200ca946079c914e1a5fe962c"
+  version "7.0.44"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.44.tgz#20422b3dada536f35bf318ac3e24b8c48200803d"
 
 "@types/node@^8.0.20":
-  version "8.0.34"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.34.tgz#55f801fa2ddb2a40dd6dfc15ecfe1dde9c129fe9"
+  version "8.0.41"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-8.0.41.tgz#b88d23b454fdbcfd170f61de88a33ec9cd98960a"
 
 accepts@~1.2.12, accepts@~1.2.13:
   version "1.2.13"
@@ -1093,9 +1093,9 @@ https-proxy-agent@1, https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-hubot-glip@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/hubot-glip/-/hubot-glip-2.1.0.tgz#535db2092e0bf95b4b8eedc3da37901e7b3e625d"
+hubot-glip@^2.1.3:
+  version "2.1.3"
+  resolved "https://registry.yarnpkg.com/hubot-glip/-/hubot-glip-2.1.3.tgz#40775f346145653e90965e2804545fcc09106e9c"
   dependencies:
     parent-require "^1.0.0"
     ringcentral-ts "^0.9.1"
