@@ -15,14 +15,15 @@ yarn install
 ## Run
 
 ```
-HUBOT_GLIP_SERVER=https://platform.ringcentral.com \
-HUBOT_GLIP_APP_KEY=appKey \
-HUBOT_GLIP_APP_SECRET=appSecret \
-HUBOT_GLIP_USERNAME=username \
-HUBOT_GLIP_EXTENSION=extension \
-HUBOT_GLIP_PASSWORD=password \
+HUBOT_GLIP_SERVER=https://platform.devtest.ringcentral.com \
+HUBOT_GLIP_APP_KEY=app-key \
+HUBOT_GLIP_APP_SECRET=app-secret \
+HUBOT_GLIP_BOT_SERVER=https://xxxxxxx.ngrok.io \
 ./bin/hubot -a glip -n t
 ```
+
+`HUBOT_GLIP_BOT_SERVER` is required the first time you add the bot to Glip.
+
 
 
 ## Usage
