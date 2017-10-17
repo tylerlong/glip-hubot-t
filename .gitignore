@@ -3,3 +3,4 @@ node_modules
 .hubot_history
 .secret
 tokenStore.json
+package-lock.json

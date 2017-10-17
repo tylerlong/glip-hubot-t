@@ -1093,9 +1093,9 @@ https-proxy-agent@1, https-proxy-agent@^1.0.0:
     debug "2"
     extend "3"
 
-hubot-glip@^2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/hubot-glip/-/hubot-glip-2.1.3.tgz#40775f346145653e90965e2804545fcc09106e9c"
+hubot-glip@^2.1.4:
+  version "2.1.4"
+  resolved "https://registry.yarnpkg.com/hubot-glip/-/hubot-glip-2.1.4.tgz#26efebf66de251396588e008df16a3921b5a1df4"
   dependencies:
     parent-require "^1.0.0"
     ringcentral-ts "^0.9.1"
