@@ -48,3 +48,10 @@ Bot > 这是第1条消息
 Bot > 这是第2条消息
 Bot > 这是第3条消息
 ```
+
+
+## Note
+
+When you create the app on RingCentral, an oauth redirect URI is required.
+
+Please read https://github.com/tylerlong/hubot-glip#note if you don't know how to specify it.
